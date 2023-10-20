@@ -24,6 +24,7 @@ body {
 
 .banner {
     width: 100%;
+    min-width: 800px;
     height: 600px;
     background-image: linear-gradient(#000, #04101c,#032a40, #04101c, #000), url('../images/banner.png');
     background-repeat: no-repeat;
@@ -90,11 +91,13 @@ body {
 }
 
 main {
+    min-width: 800px;
     background-color: #000;
     border-top: 1px solid var(--opaque-lightblue-color);
 }
 
 main #course-content {
+    
     width: 600px;
     height: 100%;
     margin: auto;
@@ -138,6 +141,7 @@ main #course-content {
 }
 
 main #transform-world {
+    min-width: 800px;
     background-image: url('../images/woman-code.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -185,6 +189,7 @@ main #professional-challenges {
 }
 
 footer {
+    min-width: 800px;
     background-image: linear-gradient(#000, #04101c,#032a40);
     padding: 50px 0;
     border-top: 1px solid var(--opaque-lightblue-color); 
