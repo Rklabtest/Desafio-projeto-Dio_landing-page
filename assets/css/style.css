@@ -29,7 +29,6 @@ body {
     background-size: cover;
     background-blend-mode: color-dodge;
     padding-top: 60px;
-    border: 1px solid red;
 }
 
 .banner .banner-content {
